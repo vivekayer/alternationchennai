@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: "AlterNation Chennai - Jazz in Chennai",
+  title: "AlterNation - Jazz in Chennai",
   description: "Independent, alternative events showcasing the best contemporary, jazz original and improvised music in Chennai",
   keywords: [
     "AlterNation Chennai",
