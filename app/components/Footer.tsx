@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faYoutube, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faTree } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
@@ -16,6 +16,11 @@ export default function Footer() {
       name: "YouTube",
       href: "https://www.youtube.com/@alternationchennai",
       icon: faYoutube,
+    },
+    {
+      name: "Facebook",
+      href: "https://www.facebook.com/alternationchennai/",
+      icon: faFacebook,
     },
     {
       name: "Linktree",

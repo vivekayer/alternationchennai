@@ -2,8 +2,9 @@ import { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: "AlterNation - Jazz in Chennai",
-  description: "Independent, alternative events showcasing the best contemporary, jazz original and improvised music in Chennai",
+  title: "AlterNation Chennai - Jazz and improvised, contemporary music",
+  description:
+    "Independent, alternative events showcasing the best contemporary, jazz original and improvised music in Chennai",
   keywords: [
     "AlterNation Chennai",
     "independent music",
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     "original music",
     "Chennai music events",
     "live music Chennai",
-    "jazz in Chennai"
+    "jazz in Chennai",
   ],
   authors: [{ name: "AlterNation Chennai" }],
   creator: "AlterNation Chennai",
