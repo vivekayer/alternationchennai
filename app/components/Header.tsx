@@ -8,10 +8,9 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const nav = [
-    { name: 'Home', href: '/' },
+    { name: 'Who we are', href: '/about' },
     { name: 'Shows', href: '/shows' },
     { name: 'Jazz Festival', href: '/jazz-festival' },
-    { name: 'Who we are', href: '/about' },
     { name: 'Jazz Jams', href: '/jazz-jams' },
   ];
 
