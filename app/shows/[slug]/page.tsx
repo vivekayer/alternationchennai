@@ -169,39 +169,33 @@ export default async function ShowPage({ params }: Props) {
               <p className="whitespace-pre-wrap">{show.description}</p>
             ) : Array.isArray(show.description) ? (
               <>
-                {show.description.map((item, idx) =>
-                  item.type === 'text' ? (
-                    <p key={idx} className="leading-relaxed">
-                      {item.content}
-                    </p>
-                  ) : item.type === 'links' ? (
-                    <p key={idx} className="space-x-4 flex flex-wrap gap-4">
-                      {item.content.map((link, linkIdx) => (
-                        <Link
-                          key={linkIdx}
-                          href={link.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-400 hover:text-blue-300"
-                        >
-                          {link.text}
-                        </Link>
-                      ))}
-                    </p>
-                  ) : item.type === 'band' ? (
-                    <div key={idx}>
-                      <p className="font-semibold text-white mb-2">{item.title}</p>
-                      <div className="space-y-1 ml-4">
-                        {item.members.map((member, memberIdx) => (
-                          <p key={memberIdx} className="text-gray-300">
-                            {member}
-                          </p>
+                {show.description.map((item, idx) => {
+                  if (item.type === 'text' && typeof item.content === 'string') {
+                    return (
+                      <p key={idx} className="leading-relaxed">
+                        {item.content}
+                      </p>
+                    );
+                  } else if (item.type === 'links' && Array.isArray(item.content)) {
+                    return (
+                      <p key={idx} className="space-x-4 flex flex-wrap gap-4">
+                        {item.content.map((link, linkIdx) => (
+                          <Link
+                            key={linkIdx}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-400 hover:text-blue-300"
+                          >
+                            {link.text}
+                          </Link>
                         ))}
-                      </div>
-                    </div>
-                  ) : null
-                )}
-              </>
+                      </p>
+                    );
+                  }
+                  return null;
+                })}
+                </>
             ) : null}
           </div>
         )}
