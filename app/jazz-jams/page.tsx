@@ -15,16 +15,15 @@ export default function JazzJams() {
         </p>
 
         <p>
-          This is a live jazz jam where all instruments and voices are welcome
-          to play and sit in with our very friendly house band, who will take us
+         All instruments and voices are welcome at the AlterNation Jazz Jams.
+          Our friendly house band will accompany the jam sessions, guiding players
           through a list of popular jazz standards. We ask that you have some
           knowledge of Jazz and improvisation in order to be able to fully join
-          in, so we provide the list of songs in advance for you to listen to,
-          and come prepared for the ones that interest you!
+          in. We provide the list of songs in advance so you can come prepared for the ones that interest you.
         </p>
 
         <p>
-          The sessions are absolutely FREE, and open to anyone to come listen
+          The sessions are absolutely FREE, and open for all to come to listen
           and watch the great jazz music created by our Jazz-Jammers.
         </p>
 

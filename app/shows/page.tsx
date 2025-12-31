@@ -47,8 +47,7 @@ export default function ShowsLanding() {
 
         <div>
           <p className="text-gray-300 mb-6">
-            Click on the links below to check out all the fantastic previous
-            AlterNation shows held right here in Chennai
+            Click on the links below to check out all previous AlterNation shows
           </p>
 
           <ul className="space-y-3">
