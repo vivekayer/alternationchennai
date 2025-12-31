@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 import './globals.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 export const metadata: Metadata = {
   title: "AlterNation Chennai - Jazz and improvised, contemporary music",
@@ -48,7 +50,11 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {children}
+        <Header />
+        <div className="min-h-screen flex flex-col">
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
