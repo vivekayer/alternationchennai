@@ -6,12 +6,19 @@ import { useState } from 'react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isJazzCommunityOpen, setIsJazzCommunityOpen] = useState(false);
 
   const nav = [
     { name: 'Who we are', href: '/about' },
     { name: 'Shows', href: '/shows' },
     { name: 'Jazz Festival', href: '/jazz-festival' },
     { name: 'Jazz Jams', href: '/jazz-jams' },
+  ];
+
+  const jazzCommunity = [
+    { name: 'Weekly Jazz Workshops', href: '/weekly-jazz-workshops' },
+    { name: 'Many Things Academy', href: '/many-things-academy' },
+    { name: 'Tuesday Jazzers Collective', href: '/tuesday-jazzers-collective' },
   ];
 
   return (
@@ -43,6 +50,22 @@ export default function Header() {
                   </Link>
                 </li>
               ))}
+              <li className="relative group">
+                <button className="text-white hover:text-gray-300 transition-colors">
+                  Jazz Community
+                </button>
+                <div className="absolute right-0 mt-2 w-56 bg-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50">
+                  {jazzCommunity.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block px-4 py-2 text-white hover:bg-gray-800 transition-colors first:rounded-t last:rounded-b"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+              </li>
             </ul>
           </nav>
 
@@ -73,6 +96,32 @@ export default function Header() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <button
+                  onClick={() => setIsJazzCommunityOpen(!isJazzCommunityOpen)}
+                  className="text-white hover:text-gray-300 transition-colors w-full text-left"
+                >
+                  Jazz Community
+                </button>
+                {isJazzCommunityOpen && (
+                  <ul className="mt-2 pl-4 border-l border-gray-700 space-y-2">
+                    {jazzCommunity.map((item) => (
+                      <li key={item.href}>
+                        <Link
+                          href={item.href}
+                          className="text-white hover:text-gray-300 transition-colors block"
+                          onClick={() => {
+                            setIsMenuOpen(false);
+                            setIsJazzCommunityOpen(false);
+                          }}
+                        >
+                          {item.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
             </ul>
           </nav>
         )}
