@@ -19,3 +19,11 @@ body {
   background: #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Force dark mode colors */
+@media (prefers-color-scheme: light) {
+  body {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
