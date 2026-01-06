@@ -23,7 +23,7 @@ export default function ShowsLanding() {
 
       <div className="space-y-8">
         <p className="text-gray-300">
-          Follow us on{' '}
+          Follow us on{" "}
           <Link
             href="https://www.instagram.com/alternationchennai/"
             target="_blank"
@@ -32,8 +32,8 @@ export default function ShowsLanding() {
           >
             <FontAwesomeIcon icon={faInstagram} className="text-sm mr-1" />
             Instagram
-          </Link>{' '}
-          or{' '}
+          </Link>{" "}
+          or{" "}
           <Link
             href="https://chat.whatsapp.com/LIX1rOMBejL5yPVuTLj35W"
             target="_blank"
@@ -41,13 +41,13 @@ export default function ShowsLanding() {
             className="text-blue-400 hover:text-blue-300"
           >
             join our Whatsapp group
-          </Link>{' '}
+          </Link>{" "}
           to hear about all upcoming AlterNation shows.
         </p>
 
         <div>
           <p className="text-gray-300 mb-6">
-            Click on the links below to check out all previous AlterNation shows
+            Follow the links to see all previous shows.
           </p>
 
           <ul className="space-y-3">
