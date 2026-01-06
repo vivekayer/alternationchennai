@@ -141,7 +141,7 @@ const knownShows = {
     image: '/bands/09_ManyThings.jpg',
   },
   'fractured-groove': {
-    title: 'Fractured Groove and the Gautam Menon Quartet',
+    title: 'Fractured Groove / Gautam Menon Quartet',
     date: '29th November 2025',
     venue: 'Vinyl & Brew, Chennai',
     description: [

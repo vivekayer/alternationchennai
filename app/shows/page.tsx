@@ -13,7 +13,7 @@ export default function ShowsLanding() {
     { title: 'Flying 4', slug: 'flying-4' },
     { title: 'Day 5', slug: 'day-5' },
     { title: 'Many Things - AlterNation one year anniversary show', slug: 'many-things-anniversary' },
-    { title: 'Fractured Groove and the Gautam Menon Quartet', slug: 'fractured-groove' },
+    { title: 'Fractured Groove / Gautam Menon Quartet', slug: 'fractured-groove' },
     { title: "Mu's Progeny", slug: 'mus-progeny' },
   ];
 
