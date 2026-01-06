@@ -9,7 +9,7 @@ export default function ShowsLanding() {
     { title: 'Beginnings', slug: 'beginnings' },
     { title: 'Tinctures', slug: 'tinctures' },
     { title: 'Maarten and Holger', slug: 'maarten-and-holger' },
-    { title: 'Oto3', slug: 'oto3' },
+    { title: 'oto.3', slug: 'oto3' },
     { title: 'Flying 4', slug: 'flying-4' },
     { title: 'Day 5', slug: 'day-5' },
     { title: 'Many Things - AlterNation one year anniversary show', slug: 'many-things-anniversary' },

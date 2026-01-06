@@ -10,19 +10,43 @@ const knownShows = {
     title: 'Many Things',
     date: 'Saturday, 28th September 2024',
     venue: 'Vinyl & Brew, Chennai',
-    description: 'Many Things is a cross genre instrumental trio from Chennai, India consisting of Maarten Visser on saxophone, Aravind Murali on bass, and Manukrishnan on drums. Many Things combine a variety of musical styles such as jazz, rock, classical and funk and delicately treads the fine line between composition and improvisation. Their innovative music takes the listener on a journey, with unexpected twists and turns that never fail to surprise. Many things has played at various venues across the country.',
+    description: [
+      { type: 'text', content: 'Many Things is a cross genre instrumental trio from Chennai, India consisting of Maarten Visser on saxophone, Aravind Murali on bass, and Manukrishnan on drums. Many Things combine a variety of musical styles such as jazz, rock, classical and funk and delicately treads the fine line between composition and improvisation. Their innovative music takes the listener on a journey, with unexpected twists and turns that never fail to surprise. Many things has played at various venues across the country.' },
+      { type: 'band', title: 'Band', members: [
+        'Maarten Visser - saxophone',
+        'Aravind Murali - bass',
+        'Manukrishnan - drums',
+      ]},
+    ],
+    image: '/bands/01_ManyThings.jpg',
   },
   'descarga': {
     title: 'Descarga',
     date: '2nd November 2024',
     venue: 'Vinyl & Brew, Chennai',
-    description: 'DESCARGA - improvised music session - is a project by drummer Jeoraj George. The idea behind Descarga is to collaborate with artists from diverse musical backgrounds and explore the deep traditions of latin, jazz, funk and world music. The band draws influence from AfroCuban, Afro Brazilian sources and Jazz legends like Chick Corea, Michel Camilo, Horacio Hernandez, and contemporary bands like Snarky Puppy and Dirty Loops. For this instalment of the project Jeoraj has teamed up with Joshua Costa on piano and Napier Peter Naveen Kumar on bass guitar.',
+    description: [
+      { type: 'text', content: 'DESCARGA - improvised music session - is a project by drummer Jeoraj George. The idea behind Descarga is to collaborate with artists from diverse musical backgrounds and explore the deep traditions of latin, jazz, funk and world music. The band draws influence from AfroCuban, Afro Brazilian sources and Jazz legends like Chick Corea, Michel Camilo, Horacio Hernandez, and contemporary bands like Snarky Puppy and Dirty Loops. For this instalment of the project Jeoraj has teamed up with Joshua Costa on piano and Napier Peter Naveen Kumar on bass guitar.' },
+      { type: 'band', title: 'Band', members: [
+        'Jeoraj George - drums',
+        'Joshua Costa - piano',
+        'Napier Peter Naveen Kumar - bass',
+      ]},
+    ],
+    image: '/bands/02_Descarga.jpg',
   },
   'beginnings': {
     title: 'Beginnings',
     date: '28th December 2024',
     venue: 'Vinyl & Brew, Chennai',
-    description: 'BEGINNINGS is a project by pianist, saxophonist and composer, Matt Littlewood. Beginnings features mainly original compositions, together with re-imaginings of some well-known jazz standards. The project is a conscious effort to play an active role in the improvised musical community, and aims to conceptualise many diverse musical and personal experiences gained over the years. The compositions also reflect his work towards a new pianistic and compositional style that combines jazz with elements of Neo Soul, RnB, and Indian and Western Classical music.\n\nMatt performs the pieces on piano and is joined by the internationally renowned Holger Jetter on electric double bass, and dynamic and versatile drummer, Raul Mattia.',
+    image: '/bands/03_Beginnings.jpg',
+    description: [
+      { type: 'text', content: 'BEGINNINGS is a project by pianist, saxophonist and composer, Matt Littlewood. Beginnings features mainly original compositions, together with re-imaginings of some well-known jazz standards. The project is a conscious effort to play an active role in the improvised musical community, and aims to conceptualise many diverse musical and personal experiences gained over the years. The compositions also reflect his work towards a new pianistic and compositional style that combines jazz with elements of Neo Soul, RnB, and Indian and Western Classical music.\n\nMatt performs the pieces on piano and is joined by the internationally renowned Holger Jetter on electric double bass, and dynamic and versatile drummer, Raul Mattia.' },
+      { type: 'band', title: 'Band', members: [
+        'Matt Littlewood - piano',
+        'Holger Jetter - double bass',
+        'Raul Mattia - drums',
+      ]},
+    ],
   },
   'tinctures': {
     title: 'Tinctures',
@@ -38,19 +62,39 @@ const knownShows = {
         { text: 'www.amanmahajanmusic.com', url: 'https://www.amanmahajanmusic.com' },
         { text: 'www.nishadpandey.com', url: 'https://www.nishadpandey.com' },
       ]},
+      { type: 'band', title: 'Band', members: [
+        'Nishad Pandey - guitar',
+        'Aman Mahajan - piano',
+      ]},
     ],
+    image: '/bands/04_Tinctures.jpg',
   },
   'maarten-and-holger': {
     title: 'Maarten and Holger',
     date: '8th March 2025',
     venue: 'Vinyl & Brew, Chennai',
-    description: 'Maarten Visser and Holger Jetter have collaborated intensively over the last 15 years in different line-ups and as a duo. The last duo show dates back to the 2019 Madras Jazz Festival, where they played tunes from the Pixie-Suite, a set of tunes Maarten exclusively wrote for the festival. The music is an exploration in sound as well as an invitation to improvise with this sound. For this AlterNation show the duo will reprise these tunes and see where pixies will lead them.',
+    image: '/bands/05_MVHJ.webp',
+    description: [
+      { type: 'text', content: 'Maarten Visser and Holger Jetter have collaborated intensively over the last 15 years in different line-ups and as a duo. The last duo show dates back to the 2019 Madras Jazz Festival, where they played tunes from the Pixie-Suite, a set of tunes Maarten exclusively wrote for the festival. The music is an exploration in sound as well as an invitation to improvise with this sound. For this AlterNation show the duo will reprise these tunes and see where pixies will lead them.' },
+      { type: 'band', title: 'Band', members: [
+        'Maarten Visser - saxophone',
+        'Holger Jetter - bass',
+      ]},
+    ],
   },
   'oto3': {
-    title: 'Oto3',
+    title: 'oto.3',
     date: '26th April 2025',
+    image: '/bands/06_OTO3.webp',
     venue: 'Vinyl & Brew, Chennai',
-    description: 'A decade after their last performance, Robbert van Hulzen (Netherlands), Holger Jetter (Germany/India), and Maarten Visser (Netherlands/India) felt it was the perfect moment to embark on a new oto.3 journey. With the addition of an electric double bass, fresh experiments, innovative sound structures, and a specially composed 50-minute piece, they are set to premiere their latest creation at AlterNation.',
+    description: [
+      { type: 'text', content: 'A decade after their last performance, Robbert van Hulzen (Netherlands), Holger Jetter (Germany/India), and Maarten Visser (Netherlands/India) felt it was the perfect moment to embark on a new oto.3 journey. With the addition of an electric double bass, fresh experiments, innovative sound structures, and a specially composed 50-minute piece, they are set to premiere their latest creation at AlterNation.' },
+      { type: 'band', title: 'Band', members: [
+        'Maarten Visser - saxophones',
+        'Holger Jetter - bass',
+        'Robbert van Hulzen - drums',
+      ]},
+    ],
   },
   'flying-4': {
     title: 'Flying 4',
@@ -58,7 +102,6 @@ const knownShows = {
     venue: 'Vinyl & Brew, Chennai',
     description: [
       { type: 'text', content: 'Fronted by acclaimed German singer Leona Berlin, whose emotive blend of jazz, R&B and hip-hop has captivated audiences worldwide, the ensemble also features Hungarian piano virtuoso Zsigmond Gerlóczy, praised for his breathtaking improvisations and poetic depth. Joining them is Japanese bassist and composer Hiroshi Tokieda, known for his rich sonic palette spanning jazz to electronic, and Berlin-based drummer-producer Magro, whose award-winning grooves merge acoustic jazz with modern hip-hop and R&B.' },
-      { type: 'text', content: 'Flying 4 will deliver a unique crossover performance that reimagines the possibilities of jazz, R&B, and hip-hop in a celebration of artistry, improvisation, and genre-defying sound.' },
       { type: 'band', title: 'Band', members: [
         'Leona Berlin - vocals',
         'Zsigmond Gerlóczy - piano',
@@ -66,27 +109,28 @@ const knownShows = {
         'Magro - drums',
       ]},
     ],
+    image: '/bands/07_Flying4.webp',
   },
   'day-5': {
     title: 'Day 5',
     date: '23rd August 2025',
     venue: 'Vinyl & Brew, Chennai',
     description: [
-      { type: 'text', content: 'Day 5 is a Chennai-based quartet that forges a sharp fusion of jazz, funk, and blues. The band\'s intricate and grooving sound is built on a foundation of powerful rhythms and melodic improvisation. The members include Amitav Gautam on guitar, Pranav RV on keyboards, Aravind Murali on bass, and Dhina on drums.' },
+      { type: 'text', content: 'Day 5 is a Chennai-based quartet that forges a sharp fusion of jazz, funk, and blues. The band\'s intricate and grooving sound is built on a foundation of powerful rhythms and melodic improvisation.' },
       { type: 'band', title: 'Band', members: [
-        'Amitav Gautam - Guitar',
-        'Pranav RV - Keyboards',
-        'Aravind Murali - Bass',
-        'Dhina - Drums',
+        'Amitav Gautam - guitar',
+        'Pranav RV - keyboards',
+        'Aravind Murali - bass',
+        'Dhina - drums',
       ]},
     ],
+    image: '/bands/08_Day5.jpg',
   },
   'many-things-anniversary': {
     title: 'Many Things - AlterNation one year anniversary show',
     date: '20th September 2025',
     venue: 'Vinyl & Brew, Chennai',
     description: [
-      { type: 'text', content: 'We are thrilled to be celebrating one year in Chennai! A huge thanks to all of you for supporting us to bring independent, alternative events to Chennai, showcasing the best contemporary, jazz original and improvised music! For our one-year anniversary show we are welcoming back Many Things, who started it all with us. They join us with a brand new set with the release of their second album "Two Many Things".' },
       { type: 'text', content: 'Many Things is a cross genre instrumental trio from Chennai, India consisting of Maarten Visser on saxophone, Aravind Murali on bass, and Manukrishnan on drums. Many Things combine a variety of musical styles such as jazz, rock, classical and funk and delicately treads the fine line between composition and improvisation. Their innovative music takes the listener on a journey, with unexpected twists and turns that never fail to surprise. Many things has played at various venues across the country.' },
       { type: 'band', title: 'Band', members: [
         'Maarten Visser - saxophone',
@@ -94,6 +138,7 @@ const knownShows = {
         'Manukrishnan - drums',
       ]},
     ],
+    image: '/bands/09_ManyThings.jpg',
   },
   'fractured-groove': {
     title: 'Fractured Groove and the Gautam Menon Quartet',
@@ -102,34 +147,35 @@ const knownShows = {
     description: [
       { type: 'text', content: 'Fractured Groove is an experimental band who blends intricate rhythm, melodic phrasing, and harmonic storytelling. A fusion of technical precision and emotional flow, it captures the beauty hidden in fragments - where every groove tells a story.' },
       { type: 'band', title: 'Fractured Groove', members: [
-        'Samuel Christopher - Guitar',
-        'Akhilesh Subramanian - Bass',
-        'Dhina - Drums',
+        'Samuel Christopher - guitar',
+        'Akhilesh Subramanian - bass',
+        'Dhina - drums',
       ]},
       { type: 'text', content: 'Gautam Menon Quartet featuring Akhilesh Subramaniam on Bass, Divyam Mehrotra on Keyboards, and Vivek Ayer on Guitar presents genre-blending ethno-jazz music that weaves the melodic depth of Carnatic music with the improvisational freedom of modern jazz. With pulsating rhythmic cycles, modal exploration, and spontaneous interplay at its core. They create music that is both rooted in tradition and alive with contemporary energy. Their sound features Carnatic-influenced composition techniques-intricate rhythmic motifs, raga-based melodies, and layered improvisation-that dovetail seamlessly with jazz harmony and groove. The result is an expressive, cinematic, and exploratory musical experience where every performance becomes a fresh conversation between cultures, instruments, and ideas.' },
-      { type: 'text', content: 'It isn\'t just fusion-it\'s a meeting point of two improvisational worlds, delivered with soul, precision, and a deep respect for musical storytelling.' },
       { type: 'band', title: 'Gautam Menon Quartet', members: [
-        'Gautam Menon - Drums',
-        'Akhilesh Subramaniam - Bass',
-        'Divyam Mehrotra - Keyboards',
-        'Vivek Ayer - Guitar',
+        'Gautam Menon - drums',
+        'Akhilesh Subramaniam - bass',
+        'Divyam Mehrotra - keyboards',
+        'Vivek Ayer - guitar',
       ]},
     ],
+    image: '',
+    images: ['/bands/10_FG.jpg', '/bands/10_GMQ.jpg'],
   },
   'mus-progeny': {
     title: "Mu's Progeny",
     date: '13th December 2025',
     venue: 'Vinyl & Brew, Chennai',
     description: [
-      { type: 'text', content: 'Our last show of 2025 will take place on Saturday 13th December and will feature one of our most unique and experimental artists yet. Flying in from Belgium, we are proud to present: Mu\'s Progeny.' },
       { type: 'text', content: 'Mu\'s Progeny bends toward a future on the verge of non-existence. Drums, shō, and Fryprone-three voices unprepared for one another-collide to summon echoes of archaic memory and the shimmer of future possibility. The music forms a kind of democracy: sound, interaction, and community woven into a single, unpredictable body. It\'s colours and cultural memories anchor it, yet its style belongs to no lineage but its own.' },
       { type: 'text', content: 'Rhythmic unity surfaces, then fractures. Violence coexists with tenderness. Melody, counterpoint, and harmony drift through the space like transmissions from a planet our ancestors once imagined. On stage, something is born-briefly, irretrievably. It lives only in the moment of performance and in the vibrations left behind on the walls.' },
       { type: 'band', title: 'Band', members: [
-        'Dirk Wachtelaer - Drums',
-        'Dirk Stromberg - Fryprone',
-        'Fabio Rambelli - Shō',
+        'Dirk Wachtelaer - drums',
+        'Dirk Stromberg - fryprone',
+        'Fabio Rambelli - shō',
       ]},
     ],
+    image: '/bands/11_MusProgeny.jpg',
   },
 };
 
@@ -197,6 +243,48 @@ export default async function ShowPage({ params }: Props) {
                 })}
                 </>
             ) : null}
+          </div>
+        )}
+        {Array.isArray(show.description) && (
+          <div className="mt-8 space-y-6">
+            {show.description.map((item, idx) => {
+              if (item.type === 'band' && item.title && Array.isArray(item.members)) {
+                return (
+                  <div key={idx} className="mt-6">
+                    <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
+                    <ul className="space-y-2">
+                      {item.members.map((member, memberIdx) => (
+                        <li key={memberIdx} className="text-gray-300">
+                          {member}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              }
+              return null;
+            })}
+          </div>
+        )}
+        {show.image && (
+          <div className="mt-8 flex justify-center">
+            <img 
+              src={show.image} 
+              alt={show.title}
+              className="w-4/5 h-auto rounded-lg"
+            />
+          </div>
+        )}
+        {'images' in show && show.images && Array.isArray(show.images) && (
+          <div className="mt-8 flex justify-center gap-6 flex-wrap">
+            {show.images.map((imgPath: string, idx: number) => (
+              <img 
+                key={idx}
+                src={imgPath} 
+                alt={`${show.title} - Image ${idx + 1}`}
+                className="w-4/5 h-auto rounded-lg"
+              />
+            ))}
           </div>
         )}
       </div>
