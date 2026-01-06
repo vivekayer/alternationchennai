@@ -52,6 +52,14 @@ export default function JazzJams() {
           </p>
         </div>
       </div>
+
+      <div className="pt-8">
+        <img
+          src="/jazzjam.jpg"
+          alt="Jazz Jams"
+          className="w-full rounded-lg shadow-lg"
+        />
+      </div>
     </section>
   );
 }
