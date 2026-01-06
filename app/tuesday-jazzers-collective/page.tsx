@@ -26,7 +26,7 @@ export default function TuesdayJazzersCollective() {
           <p className="mb-4">
             The Tuesday Jazzers Collective comprises musicians from all musical backgrounds, experience and instruments, 
             bound together by a love of Jazz. The collective comes together every Tuesday in a workshop in Chennai, mentored 
-            by world renowned Saxophonist and composer Maarten Visser, to learn and develop fundamental jazz music skills, 
+            by acclaimed Saxophonist and composer Maarten Visser, to learn and develop fundamental jazz music skills, 
             improvisation, harmony and performance.
           </p>
           <p className="mb-4">
