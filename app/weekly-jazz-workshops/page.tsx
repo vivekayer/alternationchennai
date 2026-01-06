@@ -13,12 +13,11 @@ export default function WeeklyJazzWorkshops() {
             Weekly Jazz Workshops in Chennai
           </h2>
           <p>
-            Maarten Visser, the world-renowned Saxophonist and composer based in
-            Chennai, runs weekly workshops for musicians to come together to
-            learn and develop fundamental jazz music skills, improvisation,
-            harmony and performance. These workshops are run in Adyar, Chennai
-            in the early evening and are open to all, with only a small monthly
-            fee expected.
+            Maarten Visser, the acclaimed Saxophonist and composer, runs weekly
+            workshops for musicians to come together to learn and develop
+            fundamental jazz music skills, improvisation, harmony and
+            performance. These workshops are run in Adyar, Chennai in the early
+            evening and are open to all, with only a small monthly fee expected.
           </p>
         </div>
 
@@ -27,8 +26,12 @@ export default function WeeklyJazzWorkshops() {
             Workshop Schedule
           </h2>
           <div className="space-y-4">
-            <p><strong>Tuesday Workshop:</strong> For intermediate musicians</p>
-            <p><strong>Wednesday Workshop:</strong> For beginners</p>
+            <p>
+              <strong>Tuesday Workshop:</strong> For intermediate musicians
+            </p>
+            <p>
+              <strong>Wednesday Workshop:</strong> For beginners
+            </p>
           </div>
         </div>
 
