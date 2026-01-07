@@ -54,6 +54,14 @@ export default function WeeklyJazzWorkshops() {
           </p>
         </div>
 
+        <div className="mt-8 flex justify-center">
+          <img
+            src="/tuesdayworkshop.jpg"
+            alt="Weekly Jazz Workshops"
+            className="w-4/5"
+          />
+        </div>
+
         <div className="mt-8 pt-8 border-t border-gray-700">
           <Link
             href="/"
