@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -61,9 +62,11 @@ export default function WeeklyJazzWorkshops() {
         </div>
 
         <div className="mt-8 flex justify-center">
-          <img
+          <Image
             src="/tuesdayworkshop.jpg"
             alt="Weekly Jazz Workshops"
+            width={800}
+            height={600}
             className="w-4/5"
           />
         </div>

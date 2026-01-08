@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
@@ -60,9 +61,11 @@ export default function ManyThingsAcademy() {
             </div>
           </div>
           <div className="flex-1 pr-8">
-            <img
+            <Image
               src="/manythingsacademy1.jpg"
               alt="Many Things Academy"
+              width={600}
+              height={800}
               className="w-full rounded-lg shadow-lg"
             />
           </div>

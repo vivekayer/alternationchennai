@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
@@ -75,9 +76,11 @@ export default function JazzFestival() {
             </p>
           </div>
           <div className="flex justify-center">
-            <img
+            <Image
               src="/bands/Jatayu_ANJ.jpg"
               alt="Jatayu"
+              width={600}
+              height={800}
               className="w-3/4 h-auto rounded-lg"
             />
           </div>
@@ -118,9 +121,11 @@ export default function JazzFestival() {
             </p>
           </div>
           <div className="flex justify-center">
-            <img
+            <Image
               src="/bands/SumanSridhar_ANJ.jpg"
               alt="Suman Sridhar and The Black Mamba"
+              width={600}
+              height={800}
               className="w-3/4 h-auto rounded-lg"
             />
           </div>
@@ -158,9 +163,11 @@ export default function JazzFestival() {
             </p>
           </div>
           <div className="flex justify-center">
-            <img
+            <Image
               src="/bands/ManyThings_ANJ.jpg"
               alt="Many Things"
+              width={600}
+              height={800}
               className="w-3/4 h-auto rounded-lg"
             />
           </div>
@@ -189,9 +196,11 @@ export default function JazzFestival() {
             </p>
           </div>
           <div className="flex justify-center">
-            <img
+            <Image
               src="/bands/TJC_ANJ.jpg"
               alt="The Tuesday Jazzers Collective"
+              width={600}
+              height={800}
               className="w-3/4 h-auto rounded-lg"
             />
           </div>
@@ -218,9 +227,11 @@ export default function JazzFestival() {
             </p>
           </div>
           <div className="flex justify-center">
-            <img
+            <Image
               src="/bands/TelevisionDust_ANJ.jpg"
               alt="Television Dust"
+              width={600}
+              height={800}
               className="w-3/4 h-auto rounded-lg"
             />
           </div>
