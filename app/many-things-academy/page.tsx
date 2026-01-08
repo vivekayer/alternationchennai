@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
+export const metadata: Metadata = {
+  title: "AlterNation Chennai - Many Things Academy",
+  description: "Learn jazz at Many Things Academy, offering music education and training programs in contemporary jazz, rhythm, harmony and improvisation in Chennai",
+};
 
 export default function ManyThingsAcademy() {
   return (

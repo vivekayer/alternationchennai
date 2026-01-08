@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
+export const metadata: Metadata = {
+  title: "AlterNation Chennai - Jazz Festival",
+  description: "Experience the AlterNation Jazz Festival featuring the most exciting music from the Chennai jazz scene",
+};
 
 export default function JazzFestival() {
   return (

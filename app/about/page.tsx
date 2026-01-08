@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faYoutube, faFacebook } from '@fortawesome/free-brands-svg-icons';
+
+export const metadata: Metadata = {
+  title: "AlterNation Chennai - About Us",
+  description: "Learn about AlterNation, a Chennai-based musical partnership dedicated to supporting jazz and improvised music",
+};
 
 export default function About() {
   return (
@@ -47,7 +53,7 @@ export default function About() {
 
           <ul className="space-y-4">
             <li>
-              <strong className="text-white">FOLLOW</strong> AlterNation on{' '}
+              <strong className="text-white">FOLLOW</strong> AlterNation on{" "}
               <Link
                 href="https://instagram.com/alternationchennai"
                 target="_blank"
@@ -57,7 +63,7 @@ export default function About() {
                 <FontAwesomeIcon icon={faInstagram} className="text-sm mr-1" />
                 Instagram
               </Link>
-              ,{' '}
+              ,{" "}
               <Link
                 href="https://www.youtube.com/@alternationchennai"
                 target="_blank"
@@ -66,8 +72,8 @@ export default function About() {
               >
                 <FontAwesomeIcon icon={faYoutube} className="text-sm mr-1" />
                 YouTube
-              </Link>{' '}
-              and{' '}
+              </Link>{" "}
+              and{" "}
               <Link
                 href="https://www.facebook.com/alternationchennai/"
                 target="_blank"
@@ -81,7 +87,7 @@ export default function About() {
 
             <li>
               <strong className="text-white">JOIN</strong> AlterNation as a
-              Citizen of AlterNation by joining our{' '}
+              Citizen of AlterNation by joining our{" "}
               <Link
                 href="https://chat.whatsapp.com/LIX1rOMBejL5yPVuTLj35W"
                 target="_blank"
@@ -99,14 +105,14 @@ export default function About() {
             </li>
 
             <li>
-              <strong className="text-white">SHOUT ABOUT</strong> AlterNation
-              to your friends and family, by telling them all about AlterNation
-              and encouraging them to follow us and come to the shows
+              <strong className="text-white">SHOUT ABOUT</strong> AlterNation to
+              your friends and family, by telling them all about AlterNation and
+              encouraging them to follow us and come to the shows
             </li>
 
             <li>
               <strong className="text-white">JAM WITH</strong> AlterNation come
-              to one of our{' '}
+              to one of our{" "}
               <Link
                 href="/jazz-jams"
                 className="text-blue-400 hover:text-blue-300"
@@ -118,8 +124,14 @@ export default function About() {
             <li>
               <strong className="text-white">PLAY WITH</strong> AlterNation we
               are always interested in new professional Jazz artists in Chennai.
-              So get in touch, or check out the Tuesday Jazz workshop if you are
-              a musician interested in developing your Jazz chops.
+              So get in touch, or check out the{" "}
+              <Link
+                href="/weekly-jazz-workshops"
+                className="text-blue-400 hover:text-blue-300"
+              >
+                Weekly Jazz Workshops
+              </Link>{" "}
+              if you are a musician interested in developing your Jazz chops.
             </li>
           </ul>
         </div>

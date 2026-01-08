@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+export const metadata: Metadata = {
+  title: "AlterNation Chennai - Weekly Jazz Workshops",
+  description: "Develop your jazz skills with AlterNation's weekly workshops in Chennai",
+};
 
 export default function WeeklyJazzWorkshops() {
   return (

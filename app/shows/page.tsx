@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+export const metadata: Metadata = {
+  title: "AlterNation Chennai - Shows",
+  description: "Explore AlterNation's past jazz shows in Chennai",
+};
 
 export default function ShowsLanding() {
   const shows = [
@@ -47,7 +53,7 @@ export default function ShowsLanding() {
 
         <div>
           <p className="text-gray-300 mb-6">
-            Follow the links to see all previous shows.
+            Explore our past shows.
           </p>
 
           <ul className="space-y-3">

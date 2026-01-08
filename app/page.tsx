@@ -1,5 +1,11 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
+
+export const metadata: Metadata = {
+  title: "AlterNation Chennai - Jazz and improvised, contemporary music",
+  description: "Independent, alternative events showcasing the best contemporary, jazz original and improvised music in Chennai",
+};
 
 export default function Home() {
   return (
