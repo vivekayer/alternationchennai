@@ -1,0 +1,19 @@
+/* TEAM */
+Name: AlterNation Chennai
+Title: Musical Partnership & Social Enterprise promoting Jazz music
+Location: Chennai, India
+
+/* SITE */
+Language: English
+Charset: UTF-8
+Standards: HTML5, CSS3, TypeScript
+Components: Next.js, React, Tailwind CSS
+Hosting: Vercel
+
+/* THANKS */
+Built with passion for the jazz community in Chennai
+
+/* SOCIAL */
+Instagram: https://instagram.com/alternationchennai
+YouTube: https://youtube.com/@alternationchennai
+Facebook: https://facebook.com/alternationchennai
