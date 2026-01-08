@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+export const metadata: Metadata = {
+  title: "AlterNation Chennai - The Tuesday Jazzers Collective",
+  description: "Discover the Tuesday Jazzers Collective, a vibrant group of jazz musicians in Chennai",
+};
 
 export default function TuesdayJazzersCollective() {
   return (
