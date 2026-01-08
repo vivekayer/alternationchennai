@@ -28,7 +28,7 @@ export default function About() {
             Chennai.
           </p>
           <p className="text-gray-300">
-            Since our formation in September 2024, AlterNation has put on 11
+            Since our formation in September 2024, AlterNation has put on regular
             shows in Chennai at the Vinyl and Brew café in the heart of the
             city. These include professional artists showcasing their original
             and often provocative work in jazz-related, improvised and

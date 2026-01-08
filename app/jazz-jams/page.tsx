@@ -32,7 +32,32 @@ export default function JazzJams() {
           The sessions are absolutely FREE, and open for all to come to listen
           and watch the great jazz music created by our Jazz-Jammers.
         </p>
+      </div>
 
+      <div className="pt-8">
+        <h2 className="text-2xl font-bold mb-4 text-white">Jazz Standards Playlist</h2>
+        <p className="text-gray-300 mb-4">
+          Here's a curated playlist of some of the jazz standards we play at our jam sessions:
+        </p>
+        <Link
+          href="https://youtube.com/playlist?list=PLIWef6r3MxK-vJZNPVn0_vtCSDsM2YrCc"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-300 text-lg font-semibold inline-block"
+        >
+          View Playlist on YouTube →
+        </Link>
+      </div>
+
+      <div className="pt-8">
+        <img
+          src="/jazzjam.jpg"
+          alt="Jazz Jams"
+          className="w-full rounded-lg shadow-lg"
+        />
+      </div>
+
+      <div className="space-y-6 text-gray-300">
         <div className="pt-6">
           <p>
             Follow us on{' '}
@@ -57,14 +82,6 @@ export default function JazzJams() {
             to hear about all upcoming AlterNation Jazz Jams.
           </p>
         </div>
-      </div>
-
-      <div className="pt-8">
-        <img
-          src="/jazzjam.jpg"
-          alt="Jazz Jams"
-          className="w-full rounded-lg shadow-lg"
-        />
       </div>
     </section>
   );
