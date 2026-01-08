@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -50,9 +51,11 @@ export default function JazzJams() {
       </div>
 
       <div className="pt-8">
-        <img
+        <Image
           src="/jazzjam.jpg"
           alt="Jazz Jams"
+          width={1200}
+          height={800}
           className="w-full rounded-lg shadow-lg"
         />
       </div>
