@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
-import Image from 'next/image';
+import Logo from './components/Logo';
 
 export const metadata: Metadata = {
   title: "AlterNation Chennai - Jazz and improvised, contemporary music",
@@ -20,15 +19,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center">
-          <Link href="/jazz-festival">
-            <Image
-              src="/an_jazz_festival.jpg"
-              alt="AlterNation Jazz Festival"
-              width={600}
-              height={400}
-              className="rounded-lg shadow-lg hover:opacity-80 transition-opacity"
-            />
-          </Link>
+          <Logo />
         </div>
       </main>
     </div>

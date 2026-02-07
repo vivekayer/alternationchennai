@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -66,6 +67,15 @@ export default function TuesdayJazzersCollective() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-700">
+          <div className="mb-8 relative w-full aspect-video overflow-hidden rounded-lg">
+            <Image
+              src="/tuesday-jazzers.jpg"
+              alt="Tuesday Jazzers Collective"
+              fill
+              className="object-cover"
+            />
+          </div>
+
           <Link
             href="/"
             className="text-blue-400 hover:text-blue-300 underline"

@@ -11,7 +11,6 @@ export default function Header() {
   const nav = [
     { name: 'Who we are', href: '/about' },
     { name: 'Shows', href: '/shows' },
-    { name: 'Jazz Festival', href: '/jazz-festival' },
     { name: 'Jazz Jams', href: '/jazz-jams' },
   ];
 

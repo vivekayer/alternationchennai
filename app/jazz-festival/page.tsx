@@ -15,35 +15,24 @@ export default function JazzFestival() {
       <h1 className="text-4xl font-bold mb-8">AlterNation Jazz Festival</h1>
 
       <div className="prose prose-invert max-w-none text-gray-300 space-y-6">
-        <div className="mb-6">
-          <Link
-            href="https://www.skillboxes.com/events/the-alternation-jazz-festival"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded inline-block"
-          >
-            Get Tickets
-          </Link>
-        </div>
-
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">
             About the Festival
           </h2>
           <p>
-            On Saturday January 31st, 2026, AlterNation presents a whole day of
-            the best contemporary, jazz original and improvised music from India. 
-            Artists include Jatayu, Suman Sridhar and the Black Mamba, and Many Things, plus showcase sets 
-            from the Tuesday Jazzers Collective. Hosted on an outdoor stage in the Zol gardens at The
-            Palomar by Crossway on the East Coast Road, Chennai, the festival will run from 3-11pm. 
+            On Saturday, January 31st, 2026, AlterNation presented a full day of
+            outstanding contemporary, jazz, original, and improvised music from
+            India. The festival featured performances by Jatayu, Suman Sridhar
+            and the Black Mamba, and Many Things, along with showcase sets from
+            the Tuesday Jazzers Collective. Hosted on an outdoor stage in the
+            Zol Gardens at The Palomar by Crossway on Chennai's East Coast Road,
+            the event ran from 3pm to 11pm.
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-6 items-start">
           <div>
-            <h3 className="text-xl font-bold text-white mb-3">
-              Jatayu
-            </h3>
+            <h3 className="text-xl font-bold text-white mb-3">Jatayu</h3>
             <p>
               Jatayu is a genre-blurring four-piece band from Chennai, India,
               known for their unique sound shaped at the crossroads of Carnatic
@@ -135,9 +124,11 @@ export default function JazzFestival() {
           <div>
             <h3 className="text-xl font-bold text-white mb-3">Many Things</h3>
             <p>
-              Chennai-based Avant Garde Jazz trio, Many Things are veterans of the Chennai Jazz scene. In 2025, they released their second studio album, Two Many Things. Many Things combine jazz, rock, classical
-              and funk and delicately treads the fine line between composition and
-              improvisation.
+              Chennai-based Avant Garde Jazz trio, Many Things are veterans of
+              the Chennai Jazz scene. In 2025, they released their second studio
+              album, Two Many Things. Many Things combine jazz, rock, classical
+              and funk and delicately treads the fine line between composition
+              and improvisation.
             </p>
             <p className="mt-4">
               <Link
@@ -208,7 +199,9 @@ export default function JazzFestival() {
 
         <div className="grid grid-cols-2 gap-6 items-start">
           <div>
-            <h3 className="text-xl font-bold text-white mb-3">Live Visual Art</h3>
+            <h3 className="text-xl font-bold text-white mb-3">
+              Live Visual Art
+            </h3>
             <p>
               During the festival, Chennai-based new media art duo, Television
               Dust will create a series of 'jazz paintings', live visual
@@ -237,20 +230,9 @@ export default function JazzFestival() {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-gray-700">
-          <Link
-            href="https://www.skillboxes.com/events/the-alternation-jazz-festival"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded inline-block"
-          >
-            Get Tickets
-          </Link>
-        </div>
-
         <div className="text-sm text-gray-400 mt-8 pt-8 border-t border-gray-700">
           <p className="mb-2">
-            <strong>Powered by</strong>{' '}
+            <strong>Powered by</strong>{" "}
             <Link
               href="https://instagram.com/the.mk.network"
               target="_blank"
@@ -261,7 +243,7 @@ export default function JazzFestival() {
             </Link>
           </p>
           <p className="mb-2">
-            <strong>Promo partners</strong>{' '}
+            <strong>Promo partners</strong>{" "}
             <Link
               href="https://instagram.com/thechennaiscene"
               target="_blank"
@@ -269,7 +251,7 @@ export default function JazzFestival() {
               className="text-blue-400 hover:text-blue-300"
             >
               @thechennaiscene
-            </Link>{' '}
+            </Link>{" "}
             <Link
               href="https://instagram.com/metalchennai"
               target="_blank"
@@ -277,7 +259,7 @@ export default function JazzFestival() {
               className="text-blue-400 hover:text-blue-300"
             >
               @metalchennai
-            </Link>{' '}
+            </Link>{" "}
             <Link
               href="https://instagram.com/houseoftofficial"
               target="_blank"
@@ -288,7 +270,7 @@ export default function JazzFestival() {
             </Link>
           </p>
           <p className="mb-2">
-            <strong>Design</strong>{' '}
+            <strong>Design</strong>{" "}
             <Link
               href="https://instagram.com/_chivaz_"
               target="_blank"
@@ -299,7 +281,7 @@ export default function JazzFestival() {
             </Link>
           </p>
           <p>
-            <strong>Venue</strong>{' '}
+            <strong>Venue</strong>{" "}
             <Link
               href="https://instagram.com/thepalomarbycrossway"
               target="_blank"
@@ -308,7 +290,7 @@ export default function JazzFestival() {
             >
               @thepalomarbycrossway
             </Link>
-            ,{' '}
+            ,{" "}
             <Link
               href="https://instagram.com/thespotted_deer"
               target="_blank"
@@ -318,6 +300,16 @@ export default function JazzFestival() {
               @thespotted_deer
             </Link>
           </p>
+        </div>
+
+        <div className="mt-8 pt-8 border-t border-gray-700 flex justify-center">
+          <Image
+            src="/an_jazz_festival.jpg"
+            alt="AlterNation Jazz Festival Poster"
+            width={600}
+            height={800}
+            className="w-2/3 h-auto rounded-lg"
+          />
         </div>
       </div>
     </section>
