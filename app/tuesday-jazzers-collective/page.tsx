@@ -43,7 +43,7 @@ export default function TuesdayJazzersCollective() {
             Gautam Menon Quartet.
           </p>
           <p className="mb-4">
-            In January 2026, the Tuesday Jazzers Collective will open the AlterNation Jazz festival.
+            In January 2026, the Tuesday Jazzers Collective opened the AlterNation Jazz festival.
           </p>
           <p>
             For more information on the Collective, the music and musicians, and for enquiries on how to book the artists 

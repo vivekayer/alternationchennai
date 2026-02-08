@@ -37,9 +37,8 @@ export default function About() {
             and promote jazz music in Chennai.
           </p>
           <p className="text-gray-300">
-            As a culmination of the work of 2024 and 2025, AlterNation is
-            hosting our first ever Jazz Festival right here in Chennai featuring
-            some of the most exciting music from artists in the Chennai Jazz
+            As a culmination of the work of 2024 and 2025, AlterNation hosted our first ever Jazz Festival 
+            right here in Chennai featuring some of the most exciting music from artists in the Chennai Jazz
             scene.
           </p>
         </div>
