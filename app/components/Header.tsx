@@ -15,6 +15,7 @@ export default function Header() {
   ];
 
   const jazzCommunity = [
+    { name: 'Jazz Bands', href: '/jazz-bands' },
     { name: 'Weekly Jazz Workshops', href: '/weekly-jazz-workshops' },
     { name: 'Many Things Academy', href: '/many-things-academy' },
     { name: 'Tuesday Jazzers Collective', href: '/tuesday-jazzers-collective' },
