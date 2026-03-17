@@ -184,4 +184,18 @@ export const knownShows: Record<string, Show> = {
     ],
     image: '/bands/11_MusProgeny.jpg',
   },
+  'jazz-festival': {
+    title: 'AlterNation Jazz Festival',
+    date: 'Saturday, January 31st, 2026',
+    venue: 'Zol Gardens at The Palomar by Crossway, Chennai',
+    description: [
+      { type: 'text', content: 'On Saturday, January 31st, 2026, AlterNation presented a full day of outstanding contemporary, jazz, original, and improvised music from India. The festival featured performances by Jatayu, Suman Sridhar and the Black Mamba, and Many Things, along with showcase sets from the Tuesday Jazzers Collective. Hosted on an outdoor stage in the Zol Gardens at The Palomar by Crossway on Chennai\'s East Coast Road, the event ran from 3pm to 11pm.' },
+      { type: 'text', content: 'Jatayu is a genre-blurring four-piece band from Chennai, India, known for their unique sound shaped at the crossroads of Carnatic music, jazz, rock, and modern improvisation. Jatayu\'s performance launched their new EP, Jewel Tones, a project that reimagines traditional Carnatic compositions through the lens of contemporary jazz and groove-driven improvisation.' },
+      { type: 'text', content: 'Suman Sridhar is a singer and award-winning artist from Mumbai who fuses jazz, pop, Indian classical, opera, spoken word in her performances. Her band includes Subid Khan on guitar and Vaibhav Wavikar on drums.' },
+      { type: 'text', content: 'Chennai-based Avant Garde Jazz trio, Many Things are veterans of the Chennai Jazz scene. In 2025, they released their second studio album, Two Many Things. Many Things combine jazz, rock, classical and funk and delicately treads the fine line between composition and improvisation.' },
+      { type: 'text', content: 'Chennai\'s up and coming Jazz musicians, The Tuesday Jazzers Collective, opened the show in the afternoon, performing three sets of well loved, classic American jazz music.' },
+      { type: 'text', content: 'During the festival, Chennai-based new media art duo, Television Dust created a series of \'jazz paintings\', live visual compositions that interpret each artist\'s music in real time.' },
+    ],
+    image: '/an_jazz_festival.jpg',
+  },
 };

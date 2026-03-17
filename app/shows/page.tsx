@@ -10,17 +10,18 @@ export const metadata: Metadata = {
 
 export default function ShowsLanding() {
   const shows = [
-    { title: 'Many Things', slug: 'many-things' },
-    { title: 'Descarga', slug: 'descarga' },
-    { title: 'Beginnings', slug: 'beginnings' },
-    { title: 'Tinctures', slug: 'tinctures' },
-    { title: 'Maarten and Holger', slug: 'maarten-and-holger' },
-    { title: 'oto.3', slug: 'oto3' },
-    { title: 'Flying 4', slug: 'flying-4' },
-    { title: 'Day 5', slug: 'day-5' },
-    { title: 'Many Things - AlterNation one year anniversary show', slug: 'many-things-anniversary' },
-    { title: 'Fractured Groove / Gautam Menon Quartet', slug: 'fractured-groove' },
+    { title: 'AlterNation Jazz Festival', slug: 'jazz-festival' },
     { title: "Mu's Progeny", slug: 'mus-progeny' },
+    { title: 'Fractured Groove / Gautam Menon Quartet', slug: 'fractured-groove' },
+    { title: 'Many Things - AlterNation one year anniversary show', slug: 'many-things-anniversary' },
+    { title: 'Day 5', slug: 'day-5' },
+    { title: 'Flying 4', slug: 'flying-4' },
+    { title: 'oto.3', slug: 'oto3' },
+    { title: 'Maarten and Holger', slug: 'maarten-and-holger' },
+    { title: 'Tinctures', slug: 'tinctures' },
+    { title: 'Beginnings', slug: 'beginnings' },
+    { title: 'Descarga', slug: 'descarga' },
+    { title: 'Many Things', slug: 'many-things' },
   ];
 
   return (
