@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import { bands } from '@/app/data/bands';
+import Link from 'next/link';
+import { bands, slugify } from '@/app/data/bands';
 
 export const metadata: Metadata = {
   title: 'AlterNation Chennai - Jazz Bands',
@@ -25,7 +26,11 @@ export default function JazzBands() {
           {bands.map((band) => (
             <div key={band.name}>
               {/* Row 1: Band name */}
-              <h2 className="text-3xl font-bold text-white mb-6">{band.name}</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">
+                <Link href={`/jazz-bands/${slugify(band.name)}`} className="hover:text-blue-400 transition-colors">
+                  {band.name}
+                </Link>
+              </h2>
 
               {/* Row 2: Image + Video */}
               {(band.image || band.video) && (

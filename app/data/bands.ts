@@ -5,7 +5,15 @@ export type Band = {
   description?: string;
   members?: string[];
   links?: { text: string; url: string }[];
+  contact?: { name: string; instagram?: string };
 };
+
+export function slugify(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
 
 export const bands: Band[] = [
   {
@@ -20,6 +28,26 @@ export const bands: Band[] = [
       "Divyam Mehrotra - keyboards",
       "Vivek Ayer - guitar",
     ],
+    contact: {
+      name: "Gautam Menon",
+      instagram: "gautamenonmusic",
+    },
+  },
+  {
+    name: "Solsuss",
+    image: "/bands/Solsuss.jpg",
+    video: "https://www.youtube.com/embed/6RMYgqtY1h8?rel=0",
+    description:
+      "Solsuss is a jazz trio featuring Aravind on violin, John on guitar and Surya on piano.",
+    members: [
+      "Aravind Aran - Violin",
+      "John Solomon - Guitar",
+      "Surya - Piano",
+    ],
+    contact: {
+      name: "Aravind Aran",
+      instagram: "tunesandtravel",
+    },
   },
   {
     name: "The Jazz Affair",
@@ -33,6 +61,10 @@ export const bands: Band[] = [
       "Akhilesh Subramanian - bass",
       "Gautam Menon - drums",
     ],
+    contact: {
+      name: "Neil Sha",
+      instagram: "neilsha_violin",
+    },
   },
   {
     name: "The Living Room Trio",
@@ -45,6 +77,10 @@ export const bands: Band[] = [
       "Sam Christopher - guitar",
       "Gautam Menon - drums",
     ],
+    contact: {
+      name: "Harish Vijaya",
+      instagram: "har.ish.r",
+    },
   },
   {
     name: "Vivek Ayer Trio",
@@ -55,5 +91,9 @@ export const bands: Band[] = [
       "Akhilesh Subramanian - bass",
       "Gautam Menon - drums",
     ],
+    contact: {
+      name: "Vivek Ayer",
+      instagram: "vivekayer",
+    },
   },
 ];
