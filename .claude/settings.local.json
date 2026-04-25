@@ -5,7 +5,11 @@
       "Bash(npm run build:*)",
       "Bash(find:*)",
       "Bash(python3:*)",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Bash(identify:*)",
+      "Bash(magick identify:*)",
+      "Bash(node:*)",
+      "Bash(magick:*)"
     ]
   }
 }

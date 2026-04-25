@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 
 export default function ShowsLanding() {
   const shows = [
+    { title: 'International Jazz Day 2026', slug: 'jazz-day-2026' },
     { title: 'AlterNation Jazz Festival', slug: 'jazz-festival' },
     { title: "Mu's Progeny", slug: 'mus-progeny' },
     { title: 'Fractured Groove / Gautam Menon Quartet', slug: 'fractured-groove' },

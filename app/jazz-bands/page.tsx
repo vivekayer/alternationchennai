@@ -73,22 +73,6 @@ export default function JazzBands() {
                 </ul>
               )}
 
-              {band.links && band.links.length > 0 && (
-                <ul className="mt-3 flex flex-wrap gap-4">
-                  {band.links.map((link) => (
-                    <li key={link.url}>
-                      <a
-                        href={link.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-400 hover:text-blue-300 text-sm"
-                      >
-                        {link.text}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              )}
             </div>
           ))}
         </div>
