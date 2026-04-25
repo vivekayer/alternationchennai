@@ -184,6 +184,24 @@ export const knownShows: Record<string, Show> = {
     ],
     image: '/bands/11_MusProgeny.jpg',
   },
+  'jazz-day-2026': {
+    title: 'International Jazz Day 2026',
+    date: 'Thursday, 30th April 2026',
+    venue: 'Vinyl & Brew, Chennai',
+    description: [
+      { type: 'text', content: 'AlterNation is proud to celebrate International Jazz Day in Chennai, India! We are joining in the celebrations with thousands of other events across the world to celebrate Jazz as a truly global music.' },
+      { type: 'text', content: 'On 30th April 2026, AlterNation will host a special event at Vinyl and Brew in Chennai. The event will open with a short panel discussion on Jazz music with local musicians and event organisers, where we will get in to the spirit of Jazz, the music, the history, and the evolution of the Jazz scene in Chennai, with time for Q&A with the audience. There will then be a 1 hour performance by the Tuesday Jazzers Collective, taking us through classic jazz standards from the roots of American Jazz in trad and swing, all the way through to modern Jazz.' },
+      { type: 'band', title: 'Programme', members: [
+        '6.45 – 7.30: Panel discussion on Jazz',
+        '7.30 – 8.30: Jazz show by the Tuesday Jazzers Collective, led by Samuel Christopher',
+      ]},
+      { type: 'text', content: 'Tickets: FREE ENTRY / Pay What You Want Event' },
+      { type: 'links', content: [
+        { text: 'International Jazz Day website', url: 'https://jazzday.com/events/' },
+      ]},
+    ],
+    image: '/an_jazz_day_2026_web.jpg',
+  },
   'jazz-festival': {
     title: 'AlterNation Jazz Festival',
     date: 'Saturday, January 31st, 2026',

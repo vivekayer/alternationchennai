@@ -35,10 +35,10 @@ export const bands: Band[] = [
   },
   {
     name: "Solsuss",
-    image: "/bands/Solsuss.jpg",
+    image: "/bands/Solsuss.webp",
     video: "https://www.youtube.com/embed/6RMYgqtY1h8?rel=0",
     description:
-      "Solsuss is a jazz trio featuring Aravind on violin, John on guitar and Surya on piano.",
+      "Solsuss is a trio of contemporary musicians performing soulful and swinging, traditional jazz with their own improvisational style. Featuring Aravind on violin, John on guitar and Surya on piano.",
     members: [
       "Aravind Aran - Violin",
       "John Solomon - Guitar",
@@ -51,7 +51,7 @@ export const bands: Band[] = [
   },
   {
     name: "The Jazz Affair",
-    image: "/bands/TheJazzAffair.png",
+    image: "/bands/TheJazzAffair.webp",
     video: "https://www.youtube.com/embed/dRj4RLhzcA8?rel=0",
     description:
       "A dynamic four-piece ensemble founded by violinist Neil Sha. Known for their improvisational jazz, all members are part of the Tuesday Jazzers Collective and have performed at venues across Chennai including Alliance Française of Madras and the Inko Centre.",
@@ -80,6 +80,22 @@ export const bands: Band[] = [
     contact: {
       name: "Harish Vijaya",
       instagram: "har.ish.r",
+    },
+  },
+  {
+    name: "This Isn't England",
+    image: "/bands/ThisIsntEngland.webp",
+    description:
+      "This Isn't England is a band of four friends and musicians who met through the Tuesday Jazzers Collective in Chennai. Hailing from different states across India, and even further afield from the UK, the four are bound by a love of jazz, and contemporary improvised music. Together they explore classic Jazz music, and more contemporary pieces, playing tribute to the great jazz musicians of the past while bringing their own unique improvisation, style, and interpretations.",
+    members: [
+      "Cathy Ayer - Alto Saxophone",
+      "Gautam Menon - Drums",
+      "Vivek Ayer - Bass",
+      "Divyam Mehrotra - Keyboards",
+    ],
+    contact: {
+      name: "Cathy Ayer",
+      instagram: "cathyayer",
     },
   },
   {
