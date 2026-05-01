@@ -85,6 +85,7 @@ export const bands: Band[] = [
   {
     name: "This Isn't England",
     image: "/bands/ThisIsntEngland.webp",
+    video: "https://www.youtube.com/embed/S4Amj7_P20M?rel=0",
     description:
       "This Isn't England is a band of four friends and musicians who met through the Tuesday Jazzers Collective in Chennai. Hailing from different states across India, and even further afield from the UK, the four are bound by a love of jazz, and contemporary improvised music. Together they explore classic Jazz music, and more contemporary pieces, playing tribute to the great jazz musicians of the past while bringing their own unique improvisation, style, and interpretations.",
     members: [

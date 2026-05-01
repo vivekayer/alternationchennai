@@ -9,7 +9,9 @@
       "Bash(identify:*)",
       "Bash(magick identify:*)",
       "Bash(node:*)",
-      "Bash(magick:*)"
+      "Bash(magick:*)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
