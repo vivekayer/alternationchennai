@@ -11,7 +11,10 @@
       "Bash(node:*)",
       "Bash(magick:*)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(Copy-Item *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(npm list *)"
     ]
   }
 }

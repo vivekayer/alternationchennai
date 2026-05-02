@@ -100,6 +100,23 @@ export const bands: Band[] = [
     },
   },
   {
+    name: "Chill'n Oru Jazz",
+    image: "/bands/ChillnOruJazz.jpg",
+    video: "https://www.youtube.com/embed/1B3e2y0t4JI?rel=0",
+    description:
+      "Chill'n Oru Jazz is an invitation to play without boundaries. Coming from different musical places (some read: culture clash!), the band is united in seeking twisted sonic fun. This set is focused on genre-bending, improvisation and being expressive in the musical moment. Our small jazz combo is a vehicle to traverse eclectic combinations and take listeners through unique uncharted territories.",
+    members: [
+      "Srikaanth - Soprano Saxophone",
+      "Shankar - Electric Guitar",
+      "Kabeeb - Electric Bass",
+      "Alex - Drums",
+    ],
+    contact: {
+      name: "Srikaanth",
+      instagram: "sri_flute_keys",
+    },
+  },
+  {
     name: "Vivek Ayer Trio",
     image: "/bands/VivekAyerTrio.jpg",
     video: "https://www.youtube.com/embed/6XCrdF_5aQ8?rel=0",
